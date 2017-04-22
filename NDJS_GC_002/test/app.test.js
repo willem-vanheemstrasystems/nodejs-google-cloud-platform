@@ -13,25 +13,22 @@
 
 'use strict';
 
-const express = require('express');
+const testConfig = require(`./_test-config`);
+const utils = require(`nodejs-repo-tools`);
+const test = require(`ava`);
 
-const app = express();
-
-// [START hello_world]
-// Say hello!
-app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!');
-});
-// [END hello_world]
-
-if (module === require.main) {
-  // [START server]
-  // Start the server
-  const server = app.listen(process.env.PORT || 8081, () => {
-    const port = server.address().port;
-    console.log(`App listening on port ${port}`);
+if (!process.env.E2E_TESTS) {
+  test.cb(`should run`, t => {
+    utils.testLocalApp(testConfig, t.end);
   });
-  // [END server]
 }
 
-module.exports = app;
+test.cb(`should create an express app`, t => {
+  utils.getRequest(testConfig)
+    .get(`/`)
+    .expect(200)
+    .expect((response) => {
+      t.is(response.text, testConfig.msg);
+    })
+    .end(t.end);
+});

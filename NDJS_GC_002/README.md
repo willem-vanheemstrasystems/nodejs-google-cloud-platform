@@ -20,7 +20,7 @@ View Sample Code
 
 We have the sample Node.js code prepared for you in the Google Cloud Repository. To view your cloned code, open the menu on the left side of the console and select Development.
 
-Configuring your deployment
+### Configuring your deployment
 
 1 YAML files
 
@@ -86,4 +86,101 @@ Use the env_variables to define environment variables that then can be accessed 
 From the Node.js code in your app you can access this variable's value using the following code:
 
 var env = process.env.NODE_ENV;
+
+### Using Google Cloud Shell
+
+Cloud Shell is a built-in command line tool for the console. We're going to use Cloud Shell to deploy our app.
+
+1. Using Google Cloud Shell
+
+Open the Google Cloud Shell on the Web console using the [>_] button.
+
+You will be prompted as follows:
+
+```javascript
+Welcome to Cloud Shell! Type "help" to get started.
+lana_gruni@long-temple-164810:~$
+```
+
+where 'lana_gruni' is the user with which you are logged in, and 'long-temple-164810' is the project name.
+
+2. Clone the sample code
+
+Use Cloud Shell to clone and navigate to the "Hello World" code. The sample code is cloned from your project repository to the Cloud Shell.
+
+In Cloud Shell enter:
+
+```javascript
+TUTORIALDIR=~/src/long-temple-164810/nodejs_mvms_quickstart-2017-04-22-15-26
+```
+
+Clone a sample repository:
+
+```javascript
+git clone https://github.com/GoogleCloudPlatform/nodejs-getting-started.git $TUTORIALDIR
+```
+
+You will be prompted with:
+
+```javascript
+Cloning into '/home/lana_gruni/src/long-temple-164810/nodejs_mvms_quickstart-2017-04-22-15-26'...
+remote: Counting objects: 1540, done.
+remote: Compressing objects: 100% (79/79), done.
+remote: Total 1540 (delta 67), reused 21 (delta 21), pack-reused 1438
+Receiving objects: 100% (1540/1540), 460.51 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (1071/1071), done.
+```
+
+Switch to the tutorial directory:
+
+```javascript
+cd $TUTORIALDIR/1-hello-world
+```
+
+You will be prompted with:
+
+```javascript
+lana_gruni@long-temple-164810:~/src/long-temple-164810/nodejs_mvms_quickstart-2017-04-22-15-26/1-hello-world$
+```
+
+Testing your app
+
+1. Install npm packages
+
+We will install the npm packages on Cloud Shell in order to test run the Node.js app.
+
+To install npm packages, enter:
+
+```javascript
+npm install --production
+```
+
+2 Test your app on Cloud Shell
+
+Cloud Shell lets you test your app before deploying to make sure it's running as intended, just like debugging on your local machine.
+
+To test your app enter:
+
+```javascript
+npm start
+```
+
+You will be prompted with:
+
+```javascript
+> nodejs-getting-started@1.0.0 start /home/lana_gruni/src/long-temple-164810/nodejs_mvms_quickstart-2017-04-22-15-26/1-hello-world
+> node app.js
+
+App listening on port 8081
+```
+
+3 Preview your app with "Web preview"
+
+Your app is now running on Cloud Shell. You can access the app by using "Web preview" [^]  to connect to port 8080.
+
+The [^] button is found along the menu bar along the Cloud Shell.
+
+4 Terminating the preview instance
+
+Terminate the instance of the application by pressing Ctrl+C in the Cloud Shell.
 
