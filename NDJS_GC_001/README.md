@@ -34,6 +34,20 @@ You'll also want to tell the Cloud Client Library which Google Platform Project 
 
 For a comprehensive list of amazing Node.js tools and libraries, check out the curated [Awesome Node.js list](https://github.com/sindresorhus/awesome-nodejs).
 
+## Google App Engine Node.js Flexible Environment Documentation
+
+Based on 'Google App Engine Node.js Flexible Environment Documentation' at https://cloud.google.com/appengine/docs/flexible/nodejs/
+
+The App Engine flexible environment is based on Google Compute Engine and automatically scales your app up and down while balancing the load.
+
+### Quickstart
+
+Based on 'Quickstart for Node.js in the App Engine Flexible Environment' at https://cloud.google.com/appengine/docs/flexible/nodejs/quickstart
+
+This quickstart shows you how to create a small Node.js App Engine application written with the Express.js framework that displays a short message.
+
+Source: https://github.com/GoogleCloudPlatform/nodejs-docs-samples
+
 # Run Hello World on your local machine
 
 Install dependencies for this project by entering the following command:
