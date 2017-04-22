@@ -265,3 +265,8 @@ Learn how to use App Engine with other Cloud Platform products:
 ## Use MongoDB
 
 Deploy MongoDB on Compute Engine or use a managed, MongoDB service.
+
+## Learn to use Cloud Storage
+
+Cloud Storage is a powerful and simple object storage service.
+
