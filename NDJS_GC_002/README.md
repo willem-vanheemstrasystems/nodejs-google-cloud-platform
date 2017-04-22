@@ -176,7 +176,9 @@ App listening on port 8081
 
 3 Preview your app with "Web preview"
 
-Your app is now running on Cloud Shell. You can access the app by using "Web preview" [^]  to connect to port 8080.
+Your app is now running on Cloud Shell. You can access the app by using "Web preview" [^]  to connect to port 8081.
+
+The URL will be something like https://8081-dot-2352367-dot-devshell.appspot.com/?authuser=0
 
 The [^] button is found along the menu bar along the Cloud Shell.
 
@@ -184,3 +186,82 @@ The [^] button is found along the menu bar along the Cloud Shell.
 
 Terminate the instance of the application by pressing Ctrl+C in the Cloud Shell.
 
+Last steps
+
+1 Deploying with Cloud Shell
+
+You can use Cloud Shell to deploy your app. To deploy your app enter:
+
+```javascript
+gcloud app deploy --project long-temple-164810
+```
+
+You will be prompted with:
+
+```javascript
+You are about to deploy the following services:
+ - long-temple-164810/default/20170422t170830 (from [/home/lana_gruni/src/long-temple-164810/nodejs_mvms_quickstart-2017-04-22-15-26/1-hello-world/app.yaml])
+     Deploying to URL: [https://long-temple-164810.appspot.com]
+
+Do you want to continue (Y/n)?  
+```
+
+Confirm with: Y <followed by ENTER>
+
+You will be prompted with:
+
+```javascript
+...
+DONE
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Updating service [default]...done.                                                                                                                                         
+Deployed service [default] to [https://long-temple-164810.appspot.com]
+
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+To view your application in the web browser run:
+  $ gcloud app browse
+lana_gruni@long-temple-164810:~/src/long-temple-164810/nodejs_mvms_quickstart-2017-04-22-15-26/1-hello-world$ 
+```
+
+The app will be deployed.
+
+2 Visit your app. The first time, this may take a while!
+
+Open a web browser and browse to http://long-temple-164810.appspot.com/
+
+The page will show: 'Hello, world!'
+
+Congratulations! Your app has been deployed. The default URL of your app is long-temple-164810.appspot.com  Click the URL to visit it.
+
+NOTE: The app is now running in the cloud. We will show you how to disable the app to avoid potential charges.
+
+3 View your app's status
+
+You can check in on your app by monitoring its status on the App Engine dashboard.
+
+Open the menu on the left side of the console and select App Engine.
+
+Congratulations!
+
+You have successfully deployed an App Engine application! Here are some next steps:
+
+1 Disable your tutorial project
+
+You should disable your project to avoid additional charges.
+
+2 Download the Google Cloud SDK and develop locally
+
+Download Cloud SDK for Windows
+
+After it downloads, extract the file  and initialize the SDK .
+
+3 Build your next application
+
+Learn how to use App Engine with other Cloud Platform products:
+
+## Use MongoDB
+
+Deploy MongoDB on Compute Engine or use a managed, MongoDB service.
