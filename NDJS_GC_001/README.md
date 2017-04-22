@@ -33,3 +33,26 @@ You'll also want to tell the Cloud Client Library which Google Platform Project 
 ## Install other useful tools
 
 For a comprehensive list of amazing Node.js tools and libraries, check out the curated [Awesome Node.js list](https://github.com/sindresorhus/awesome-nodejs).
+
+# Run Hello World on your local machine
+
+Install dependencies for this project by entering the following command:
+
+```javascript
+npm install
+```
+
+Run the start script.
+
+```javascript
+npm start
+```
+
+In your web browser, enter the following address:
+
+http://localhost:8080
+
+You can see the Hello World message from the sample app displayed in the page.
+
+In your terminal window, press Ctrl+C to exit the web server.
+

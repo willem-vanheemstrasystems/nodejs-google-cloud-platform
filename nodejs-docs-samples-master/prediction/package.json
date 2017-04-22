@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-docs-samples-prediction",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "scripts": {
+    "test": "cd ..; npm run st -- --verbose prediction/system-test/*.test.js"
+  },
+  "dependencies": {
+    "googleapis": "18.0.0"
+  }
+}

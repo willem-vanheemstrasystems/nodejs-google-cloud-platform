@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-docs-samples-language",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "scripts": {
+    "test": "cd ..; npm run st -- --verbose language/system-test/*.test.js"
+  },
+  "dependencies": {
+    "@google-cloud/language": "0.10.3",
+    "@google-cloud/storage": "1.1.0",
+    "yargs": "7.1.0"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
