@@ -109,7 +109,7 @@
     "geddy": "13.0.8",
     "google-auth-library": "^0.10.0",
     "google-auto-auth": "^0.5.2",
-    "googleapis": "18.0.0",
+    "googleapis": "39.1.0",
     "grunt": "0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-config-dir": "^0.3.2",
