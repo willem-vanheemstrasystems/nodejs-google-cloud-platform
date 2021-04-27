@@ -160,7 +160,7 @@
     "public-ip": "2.0.1",
     "pug": "2.0.0-beta6",
     "rc": "1.1.1",
-    "redis": "2.6.5",
+    "redis": "3.1.1",
     "request": "2.79.0",
     "request-promise": "4.1.1",
     "restify": "4.3.0",
