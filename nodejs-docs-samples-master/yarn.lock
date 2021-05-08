@@ -207,14 +207,14 @@
     methmeth "^1.0.0"
     string-format-obj "^1.0.0"
 
-"@google-cloud/language@0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@google-cloud/language/-/language-0.10.2.tgz#8a558ad942467d59b4de5ddea257a95a3b7d5121"
+"@google-cloud/language@^0.10.3":
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/@google-cloud/language/-/language-0.10.6.tgz#b953a2f4d982948a0640d2d7ab5834e1c26011b6"
   dependencies:
     "@google-cloud/common" "^0.13.0"
     extend "^3.0.0"
     google-gax "^0.13.0"
-    google-proto-files "^0.11.0"
+    google-proto-files "^0.12.0"
     is "^3.0.1"
     string-format-obj "^1.1.0"
 
@@ -1800,11 +1800,11 @@ canonical-json@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/canonical-json/-/canonical-json-0.0.4.tgz#6579c072c3db5c477ec41dc978fbf2b8f41074a3"
 
-canvas@1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/canvas/-/canvas-1.6.2.tgz#12b56e3f00e7880aa45e3aae59fe75237720aaa4"
+canvas@1.6.11:
+  version "1.6.11"
+  resolved "https://registry.yarnpkg.com/canvas/-/canvas-1.6.11.tgz#c2d8bcf283281f19ded14fa163a111804522330d"
   dependencies:
-    nan "^2.4.0"
+    nan "^2.10.0"
 
 captains-log@~0.11.5, captains-log@~0.11.8:
   version "0.11.11"
@@ -4457,6 +4457,10 @@ google-proto-files@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.11.0.tgz#3d753120718e5e8574f38def739d54cf7a057553"
 
+google-proto-files@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.12.1.tgz#6434dc7e025a0d0c82e5f04e615c737d6a4c4387"
+
 google-proto-files@^0.8.0, google-proto-files@^0.8.6:
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.8.6.tgz#a7c8ddccd2179690d270b0ebfc42994d56da0ee6"
@@ -7077,11 +7081,15 @@ n-deep-merge@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/n-deep-merge/-/n-deep-merge-0.0.1.tgz#0bc132ecc716ecd01a3f8cb3ea0083f8f05514f2"
 
-nan@2.5.0, nan@^2.0.0, nan@^2.0.5, nan@^2.0.8, nan@^2.3.0, nan@^2.3.3:
+nan@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.5.0.tgz#aa8f1e34531d807e9e27755b234b4a6ec0c152a8"
 
-nan@^2.4.0, nan@~2.4.0:
+nan@^2.0.0, nan@^2.0.5, nan@^2.0.8, nan@^2.10.0, nan@^2.3.0, nan@^2.3.3:
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
+
+nan@~2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
 
