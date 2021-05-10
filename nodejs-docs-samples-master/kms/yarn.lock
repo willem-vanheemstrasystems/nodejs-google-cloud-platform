@@ -211,9 +211,9 @@ google-p12-pem@^0.1.0:
   dependencies:
     node-forge "^0.6.46"
 
-googleapis@16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-16.1.0.tgz#0f19f2d70572d918881a0f626e3b1a2fa8629576"
+googleapis@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-18.0.0.tgz#76c7c8b7e3fadb61eac44389a9beaee9240ddf01"
   dependencies:
     async "~2.1.4"
     google-auth-library "~0.10.0"
@@ -265,8 +265,8 @@ hoek@2.x.x:
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
 hosted-git-info@^2.1.4:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.1.5.tgz#0ba81d90da2e25ab34a332e6ec77936e1598118b"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 http-signature@~1.1.0:
   version "1.1.1"
