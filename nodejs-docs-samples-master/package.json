@@ -151,7 +151,7 @@
     "node-mailjet": "1.1.0",
     "node-record-lpcm16": "0.2.0",
     "nodejs-repo-tools": "git+https://github.com/GoogleCloudPlatform/nodejs-repo-tools.git#bbbb6035d77671eb053dbe6b6f0e3ff983f79639",
-    "nodemailer": "2.7.0",
+    "nodemailer": "6.4.16",
     "nodemailer-smtp-transport": "2.7.2",
     "nyc": "10.1.2",
     "parse-server": "2.3.2",
