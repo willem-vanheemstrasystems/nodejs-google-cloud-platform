@@ -169,7 +169,7 @@
     "semistandard": "9.2.1",
     "sendgrid": "4.7.1",
     "serve-favicon": "2.3.2",
-    "shelljs": "0.7.6",
+    "shelljs": "0.8.5",
     "sinon": "1.17.7",
     "sqlite3": "3.1.8",
     "strong-error-handler": "1.0.1",
