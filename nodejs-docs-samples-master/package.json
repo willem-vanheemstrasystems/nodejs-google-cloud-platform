@@ -164,7 +164,7 @@
     "request": "2.79.0",
     "request-promise": "4.1.1",
     "restify": "4.3.0",
-    "sails": "0.11.2",
+    "sails": "1.5.2",
     "sails-disk": "0.10.10",
     "semistandard": "9.2.1",
     "sendgrid": "4.7.1",
