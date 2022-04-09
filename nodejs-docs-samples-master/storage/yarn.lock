@@ -434,9 +434,9 @@ google-proto-files@^0.8.6:
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.8.6.tgz#a7c8ddccd2179690d270b0ebfc42994d56da0ee6"
 
-googleapis@16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-16.1.0.tgz#0f19f2d70572d918881a0f626e3b1a2fa8629576"
+googleapis@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-18.0.0.tgz#76c7c8b7e3fadb61eac44389a9beaee9240ddf01"
   dependencies:
     async "~2.1.4"
     google-auth-library "~0.10.0"
@@ -731,9 +731,9 @@ modelo@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/modelo/-/modelo-4.2.0.tgz#3b4b420023a66ca7e32bdba16e710937e14d1b0b"
 
-moment@2.17.1:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
+moment@2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
 
 node-forge@^0.6.46:
   version "0.6.46"
