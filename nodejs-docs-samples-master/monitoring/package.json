@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@google-cloud/monitoring": "0.2.0",
-    "async": "2.1.4",
+    "async": "3.2.2",
     "googleapis": "18.0.0",
     "yargs": "6.6.0"
   }
