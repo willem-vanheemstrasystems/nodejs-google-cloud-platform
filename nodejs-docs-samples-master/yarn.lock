@@ -207,14 +207,14 @@
     methmeth "^1.0.0"
     string-format-obj "^1.0.0"
 
-"@google-cloud/language@0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@google-cloud/language/-/language-0.10.2.tgz#8a558ad942467d59b4de5ddea257a95a3b7d5121"
+"@google-cloud/language@^0.10.3":
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/@google-cloud/language/-/language-0.10.6.tgz#b953a2f4d982948a0640d2d7ab5834e1c26011b6"
   dependencies:
     "@google-cloud/common" "^0.13.0"
     extend "^3.0.0"
     google-gax "^0.13.0"
-    google-proto-files "^0.11.0"
+    google-proto-files "^0.12.0"
     is "^3.0.1"
     string-format-obj "^1.1.0"
 
@@ -4456,6 +4456,10 @@ google-proto-files@^0.10.0:
 google-proto-files@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.11.0.tgz#3d753120718e5e8574f38def739d54cf7a057553"
+
+google-proto-files@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.12.1.tgz#6434dc7e025a0d0c82e5f04e615c737d6a4c4387"
 
 google-proto-files@^0.8.0, google-proto-files@^0.8.6:
   version "0.8.6"
@@ -10382,8 +10386,8 @@ thenify-all@1:
     thenify ">= 3.1.0 < 4"
 
 thenify@3, "thenify@>= 3.1.0 < 4":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/thenify/-/thenify-3.2.1.tgz#251fd1c80aff6e5cf57cb179ab1fcb724269bd11"
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/thenify/-/thenify-3.3.1.tgz#8932e686a4066038a016dd9e2ca46add9838a95f"
   dependencies:
     any-promise "^1.0.0"
 
