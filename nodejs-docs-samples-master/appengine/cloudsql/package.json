@@ -12,7 +12,7 @@
     "test": "cd ../..; npm run t -- appengine/cloudsql/test/*.test.js"
   },
   "dependencies": {
-    "express": "4.14.1",
+    "express": "4.17.3",
     "mysql": "2.13.0",
     "prompt": "1.0.0"
   }
