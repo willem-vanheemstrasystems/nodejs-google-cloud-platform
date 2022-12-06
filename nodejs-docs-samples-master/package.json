@@ -102,7 +102,7 @@
     "cors": "2.5.2",
     "debug": "2.6.0",
     "ejs": "2.3.4",
-    "express": "4.14.1",
+    "express": "4.17.3",
     "express-session": "1.15.0",
     "express-ws": "2.0.0",
     "fluent-logger": "2.2.0",
