@@ -434,9 +434,9 @@ google-proto-files@^0.8.6:
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.8.6.tgz#a7c8ddccd2179690d270b0ebfc42994d56da0ee6"
 
-googleapis@16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-16.1.0.tgz#0f19f2d70572d918881a0f626e3b1a2fa8629576"
+googleapis@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/googleapis/-/googleapis-18.0.0.tgz#76c7c8b7e3fadb61eac44389a9beaee9240ddf01"
   dependencies:
     async "~2.1.4"
     google-auth-library "~0.10.0"
@@ -863,8 +863,8 @@ punycode@^1.4.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
 qs@~6.2.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.1.tgz#ce03c5ff0935bc1d9d69a9f14cbd18e568d67625"
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.4.tgz#d90821bb8537cecc140e6c34f54ec76e54b39b22"
 
 qs@~6.3.0:
   version "6.3.0"
