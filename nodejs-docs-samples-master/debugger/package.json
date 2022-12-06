@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@google-cloud/debug-agent": "0.10.2",
-    "express": "4.14.1"
+    "express": "4.17.3"
   }
 }
